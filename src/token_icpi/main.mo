@@ -194,7 +194,6 @@ actor class Ledger(
     register_map.put(account_id, caller);
     switch (balance_map.get(account_id)) {
       case (?balance) {
-        balance.mint_amount += mint_amount;
         balance.principal := ?caller;
       };
       case (_) {
