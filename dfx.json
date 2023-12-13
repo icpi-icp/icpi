@@ -1,0 +1,16 @@
+{
+  "canisters": {
+    "token_icpi": {
+      "main": "src/token_icpi/main.mo",
+      "type": "motoko"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
